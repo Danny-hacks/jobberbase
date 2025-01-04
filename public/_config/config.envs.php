@@ -7,20 +7,16 @@
 // local
 $__instances['local'] = array(
 	// The prefix should be a unique part of the url (not including protocol name or auth info; see below).
-	 'prefix' => 'phpstack-1390952-5152015.cloudwaysapps.com/',
+	'prefix' => '/localhost/jobberbase',
 	// mysql credentials
-	'db_host' => '138.197.107.15',
-	// 'db_port' => 3306,
-	// 'db_user' => 'jobberbase-owner',
-	'db_user' => 'ybfadxyxts',
-	// 'db_password' => 'admin@123$',
-	'db_password' => 'fe6RP3hhgT',
-	// 'db_name' => 'jobberbase',
-	'db_name' => 'ybfadxyxts',
+	'db_host' => 'localhost',
+	'db_port' => 3306,
+	'db_user' => 'jobberbase-owner',
+	'db_password' => 'admin@123$',
+	 'db_name' => 'jobberbase',
 	'db_prefix' => '',
 	// your site's full url
-	// 'app_url' => 'http://localhost/jobberbase/',
-	 'app_url' => 'https://phpstack-1390952-5152015.cloudwaysapps.com/',
+	'app_url' => 'http://localhost/jobberbase/',
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
@@ -36,14 +32,14 @@ $__instances['local'] = array(
 
 // live
 $__instances['live'] = array(
-	'prefix' => 'yourjobberbasedomain.com',
-	'db_host' => 'localhost',
+	'prefix' => 'phpstack-1390952-5152015.cloudwaysapps.com',
+	'db_host' => '127.0.0.1',
 	'db_port' => 3306,
-	'db_user' => 'root',
-	'db_password' => '',
-	'db_name' => 'jobberbase',
+	'db_user' => 'ybfadxyxts',
+	'db_password' => 'fe6RP3hhgT',
+	'db_name' => 'ybfadxyxts',
 	'db_prefix' => '',
-	'app_url' => 'http://www.yourjobberbasedomain.com/',
+	'app_url' => 'https://phpstack-1390952-5152015.cloudwaysapps.com',
 	// language to use
 	'lang_code' => 'en',
 	'ini_error_reporting' => E_ALL,
