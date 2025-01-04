@@ -33,7 +33,7 @@ $__instances['local'] = array(
 // live
 $__instances['live'] = array(
 	'prefix' => 'phpstack-1390952-5152015.cloudwaysapps.com',
-	'db_host' => '127.0.0.1',
+	'db_host' => '138.197.107.15',
 	'db_port' => 3306,
 	'db_user' => 'ybfadxyxts',
 	'db_password' => 'fe6RP3hhgT',
