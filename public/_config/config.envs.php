@@ -7,9 +7,9 @@
 // local
 $__instances['local'] = array(
 	// The prefix should be a unique part of the url (not including protocol name or auth info; see below).
-	 'prefix' => 'https://phpstack-1390952-5152015.cloudwaysapps.com/',
+	 'prefix' => 'phpstack-1390952-5152015.cloudwaysapps.com/',
 	// mysql credentials
-	'db_host' => '127.0.0.1',
+	'db_host' => '138.197.107.15',
 	// 'db_port' => 3306,
 	// 'db_user' => 'jobberbase-owner',
 	'db_user' => 'ybfadxyxts',
