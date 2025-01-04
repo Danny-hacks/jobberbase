@@ -7,16 +7,19 @@
 // local
 $__instances['local'] = array(
 	// The prefix should be a unique part of the url (not including protocol name or auth info; see below).
-	'prefix' => 'jobberbase.local',
+	'prefix' => 'localhost/jobberbase',
 	// mysql credentials
-	'db_host' => 'localhost',
-	'db_port' => 3306,
-	'db_user' => 'root',
-	'db_password' => 'root',
-	'db_name' => 'jobberbase',
+	'db_host' => '127.0.0.1',
+	// 'db_port' => 3306,
+	// 'db_user' => 'jobberbase-owner',
+	'db_user' => 'ybfadxyxts',
+	// 'db_password' => 'admin@123$',
+	'db_password' => 'fe6RP3hhgT',
+	// 'db_name' => 'jobberbase',
+	'db_name' => 'ybfadxyxts',
 	'db_prefix' => '',
 	// your site's full url
-	'app_url' => 'http://jobberbase.local/',
+	'app_url' => 'http://localhost/jobberbase/',
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
